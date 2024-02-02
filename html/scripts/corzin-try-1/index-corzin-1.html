@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="corzin-1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="modal-window" data-modal="1">
+
+            <div class="modal-elements menu-select-window">
+                <button type="button" class="button-select-list button-corzin-product-modal">Корзина</button>
+                <button type="button" class="button-select-list button-liked-product-modal">Избранное</button>
+                <button type="button" class="button-select-list button-close-modal">x</button>
+            </div>
+
+            <div class="modal-elements main-content-window">
+
+                <div class="product-list-modal">
+
+
+                    <div class="item-product-modal">
+                        <div>x</div>
+                        <div class="img-product-modal"></div>
+                        <div class="text-modal-product">
+                            <p class="title-product-modal">Куриная крудка</p>
+                            <p class="discription-product-modal">100кг/свежее мясо</p>
+                        </div>
+                        <div class="count-select-product">
+                            <button type="button" class="button-count minus-button-product">-</button>
+                            <p class="count-product-sim"> count </p>
+                            <button type="button" class="button-count plus-button-product">+</button>
+                        </div>
+                        <div class="price-product-modal">3132312 руб</div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="total-content-modal">
+                    <p>Итоговая корзина</p>
+                    <div class="hr-div"></div>
+                    <div class="discription-corzin-total">
+                        <div class="line-modal-text-total">
+                            <p class="text-gray text-total-count-pr">Количетво товаров:</p>
+                            <p class="text-black-total text-count-value">23</p>
+                        </div>
+                        <div class="line-modal-text-total">
+                            <p class="text-gray text-total-action-pr">Сумма акции:</p>
+                            <p class="text-black-total text-action-value">3223</p>
+                        </div>
+                        <div class="line-modal-text-total">
+                            <p class="text-gray text-total-summa-pr">Сумма:</p>
+                            <p class="text-black-total text-summa-value">23123</p>
+                        </div>
+                    </div>
+                    
+                    <div class="line-modal-text-total total-price-for-users">
+                        <p class="text-gray-bold text-totalsum-pr">Итог:</p>
+                        <p class="text-black-total text-totalsum-value">33232</p>
+                    </div>
+                    <button type="button" class="go-pay-button">Заказать</button>
+                </div>
+                
+            </div>
+    </div>
+
+
+
+    
+
+
+</div>
+<!-- Подложка под модальным окном -->
+<div class="overlay" id="overlay-modal"></div>
+    
+</body>
+</html>

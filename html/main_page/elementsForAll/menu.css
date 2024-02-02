@@ -1,0 +1,43 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 37px;
+    margin-bottom: 86px;
+    background-color: rgba(0, 0, 0, 0.526);
+    padding-bottom: 2%;
+    transition: transform 0.3s ease-in-out;
+    z-index: 4;
+}
+
+.menu.menu-sticky{
+    transform: translateY(-100%);
+    
+}
+.menu-list{
+    display: flex;
+    padding-top: 10px;
+
+    text-align: center;
+    font-family: "Mikar";
+    font-size: 1.3vw;
+    
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.menu-item-header{
+    display: block;
+    margin-right: 70px;
+}
+.menu-link-header{
+    text-decoration: none;
+    color: #e7e7e7;
+
+}
+.link-page-active{
+    border-bottom: 2px #e7e7e784 solid;
+    
+}

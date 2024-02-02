@@ -1,0 +1,25 @@
+main{
+    
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+.section{
+    width: 70%;
+    border-radius: 1.6vw;
+
+}
+.section-our-market-page{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+

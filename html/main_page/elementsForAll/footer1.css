@@ -1,0 +1,172 @@
+footer{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.236);
+    width: 100%;
+}
+.footer-content{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-elements{
+    height: 300px;
+}
+.info-market-footer{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.logo-info-footer{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-footer{
+    width: 170px;
+    height: 100px;
+    background-image: url("/html/main_page/main_page_img/logo1\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo-text-footer{
+    font-family:'Header-1';
+    font-size: 1vw;
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.social-footer{
+    display: flex;
+    
+}
+.vk-social{
+    width: 50px;
+    height: 50px;
+    background-image: url("/html/main_page/main_page_img/vk-icon1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tg-social{
+    width: 50px;
+    height: 50px;
+    background-image: url("/html/main_page/main_page_img/tg-icon-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu-market-footer{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.title-menu-footer{
+    font-family:"Header-1";
+    color: aliceblue;
+}
+
+.menu-footer{
+    padding: 0;
+    list-style-type: none;
+    
+    font-size: 1vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
+
+.locat-marker-footer{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    justify-content: space-between;
+    margin-right: 60px;
+    color: aliceblue;
+}
+.menu-footer-adress{
+    list-style-type: none;
+    padding: 0;
+
+}
+.menu-footer-adress-tell{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    font-weight: 100;
+
+}
+.item-menu-clock{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    font-weight: 100;
+}
+.title-menu-footer{
+    
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+.menu-footer-adress{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3vw;
+}
+.form-input-user{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+}
+.text-input{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 35px;
+}
+.input-check-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.check-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.7vw;
+    color: aliceblue;
+
+}
+.form-reg-footer{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 66%;
+    justify-content: space-between;
+    
+}
+.form-footer-for-reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid floralwhite;
+    border-radius: 20px;
+    width: 25%;
+
+}
+.sudmit-form-info{
+    
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+
+}

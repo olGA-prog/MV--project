@@ -1,0 +1,75 @@
+
+
+#otz_slider {
+  width: 80%;
+  max-width: 1200px;
+  position: relative;
+  margin-top: 5%;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  align-items:center ;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  padding: 8px;
+  
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+
+ 
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+  
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 47px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.content-otz{
+  width: 280px;
+  height: 360px;
+  border-radius: 20px;
+
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+

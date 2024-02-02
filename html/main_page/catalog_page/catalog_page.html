@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="button_add.css">
+    <link rel="stylesheet" href="/html/main_page/fonts.css">
+    <link rel="stylesheet" href="modal_corzin.css">
+    <link rel="stylesheet" href="/html/main_page/elementsForAll/menu.css">
+    <link rel="stylesheet" href="/html/main_page/elementsForAll/footer1.css">
+    <link rel="stylesheet" href="/html/main_page/elementsForAll/header1.css">
+    <link rel="stylesheet" href="/html/main_page/elementsForAll/main1.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-catalog">
+            <div class="background-main-1 bg-chiken">
+                <div class="grad-1"></div>
+                <div id="menu-header-1" class="menu menu-main">
+                    <div class="menu-button"></div>
+                    <ul id="menu-1" class="menu-list">
+                        <li class="menu-item-header">
+                            <a href="/html/main_page/index.html" class="menu-link-header">Главная</a>
+                        </li>
+                        <li class="menu-item-header">
+                            <a href="#" class="menu-link-header link-page-active">Ассортимент</a>
+                        </li>
+                        <li class="menu-item-header">
+                            <a href="/html/main_page/our_market_page/our_market_page.html" class="menu-link-header">Наш магазин</a>
+                        </li>
+                        <li class="menu-item-header">
+                            <a href="#" class="menu-link-header">Доставка</a>
+                        </li>
+                        <li class="menu-item-header">
+                            <a href="#" class="menu-link-header">Контакты</a>
+                        </li>
+                    </ul>
+                    <div id="but-open-corzin" class="menu-button-reg"></div>
+                </div>
+                
+                <div class="text-title text-title-cat-page ">
+                    <p class=" main-catalog_page-text main-text">Наше</p>
+                    <p class="main-catalog_page-text main-text">разнообразие</p>
+                    <p class="main-catalog_page-text main-text">продуктов</p>
+                </div>
+
+            </div>
+        </header>
+
+
+
+
+        <div id="modal-window-1" class="modal-window" data-modal="1">
+
+            <div class="modal-elements menu-select-window">
+                <button type="button" class="button-select-list button-corzin-product-modal">Корзина</button>
+                <button type="button" class="button-select-list button-liked-product-modal">Избранное</button>
+                <button id="close-but-modal" type="button" class="button-select-list button-close-modal">x</button>
+            </div>
+
+            <div class="modal-elements main-content-window ">
+
+                <div class="product-list-modal">
+
+                    <div class="empty-list">
+                        <p class="empty-list-text">Корзина пуста</p>
+                    </div>  
+                </div>
+
+                <div class="total-content-modal">
+                    <p class="modal-win-title">Итоговая корзина</p>
+                    
+                    <div class="discription-corzin-total">
+                        <div class="line-modal-text-total">
+                            <p class="text-gray text-total-count-pr">Количетво товаров:</p>
+                            <p class="text-black-total text-count-value">0</p>
+                        </div>
+                        <div class="line-modal-text-total">
+                            <p class="text-gray text-total-action-pr">Сумма акции:</p>
+                            <p class="text-black-total text-action-value">0</p>
+                        </div>
+                        <div class="line-modal-text-total">
+                            <p class="text-gray text-total-summa-pr">Сумма:</p>
+                            <p class="text-black-total text-summa-value">0</p>
+                        </div>
+                    </div>
+                    
+                    <div class="line-modal-text-total total-price-for-users">
+                        <p class="text-gray-bold text-totalsum-pr">Итог:</p>
+                        <p class="text-black-total text-totalsum-value">0</p>
+                    </div>
+                    <button type="button" class="go-pay-button">Заказать</button>
+                </div>
+                
+            </div>
+
+            <div class="liked-product-section section-nonactive">
+
+                <div class="empty-list-like">
+                    <p class="empty-list-text-like">Нет избранных товаров</p>
+                </div>
+
+                
+
+                  
+            </div>
+
+        </div>
+        <div class="overlay " id="overlay-modal"></div>
+
+
+
+
+        <main>
+            <section id="catalog-1" class="catalog-main catalog-filt-serch">
+                <div class="catalog-menu ">
+                    <div class="catalog-category line-1">
+                        <ul  class="list-button-main-1 line-1-list">
+                            <li class="menu-item menu-item-category-1">
+                                <button type="button"   class="menu-link menu-link-1" data-IdSectionFirst="1">Мясо</button>
+                            </li>
+                            <li class="menu-item menu-item-category-1">
+                                <button type="button"  class="menu-link menu-link-1" data-IdSectionFirst="2">Напитки</button>
+                            </li>
+                            <li class="menu-item menu-item-category-1">
+                                <button type="button"  class="menu-link menu-link-1" data-IdSectionFirst="3">Фрукты и овощи</button>
+                            </li>
+                            <li class="menu-item menu-item-category-1">
+                                <button type="button"   class="menu-link menu-link-1" data-IdSectionFirst="4">Закуски и снеки</button>
+                            </li>
+                            <li class="menu-item menu-item-category-1">
+                                <button type="button"  class="menu-link menu-link-1" data-IdSectionFirst="5">Балакея</button>
+                            </li>
+                            <li class="menu-item menu-item-category-1">
+                                <button type="button"  class="menu-link menu-link-1" data-IdSectionFirst="6">Сладкое</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-category line-2">
+                        <ul id="list-mini-1" class=" list-button-main-2 line-1-list non-active-line2 " data-IdMiniList="1">
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2 "  data-IdMiniSection="1" data-TypeProductMini="pig">Свинина</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="2" data-TypeProductMini="beef">Говядина</button>
+                            </li>
+                            <li class="menu-item  menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="3" data-TypeProductMini="chicken">Курица</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2" data-IdMiniSection="4" data-TypeProductMini="turkey">Индейка</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2" data-IdMiniSection="5" data-TypeProductMini="farsh">Фарш</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="6" data-TypeProductMini="kupats">Купаты</button>
+                            </li>
+                        </ul>
+                        <ul id="list-mini-2" class=" list-button-main-2 line-1-list non-active-line2" data-IdMiniList="2">
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2 " data-IdMiniSection="1" data-TypeProductMini="gas">Газированные напитки</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="2" data-TypeProductMini="nonGas">Негазированные напитки</button>
+                            </li>
+                            <li class="menu-item  menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="3" data-TypeProductMini="freash">Соки</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2" data-IdMiniSection="4" data-TypeProductMini="energy">Энергитические напитки</button>
+                            </li>
+                        </ul>
+                        <ul id="list-mini-3" class=" list-button-main-2 line-1-list non-active-line2" data-IdMiniList="3">
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2 " data-IdMiniSection="1" data-TypeProductMini="fruts">Фрукты</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="2" data-TypeProductMini="vegan">Овощи</button>
+                            </li>
+                        </ul>
+                        <ul id="list-mini-4" class=" list-button-main-2 line-1-list non-active-line2" data-IdMiniList="4">
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2 " data-IdMiniSection="1" data-TypeProductMini="chips">Чипсы</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="2" data-TypeProductMini="suhariki">Сухарики</button>
+                            </li>
+                            <li class="menu-item  menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="3" data-TypeProductMini="meatSneack">Мясные закуски</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="4" data-TypeProductMini="fish">Вяленая рыба</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="5" data-TypeProductMini="seaFood">Сухие морепродукты</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="6" data-TypeProductMini="cheeese">Сыры</button>
+                            </li>
+                        </ul>
+                        <ul id="list-mini-5" class=" list-button-main-2 line-1-list non-active-line2" data-IdMiniList="5">
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2 " data-IdMiniSection="1" data-TypeProductMini="pasta">Макаронные изделия</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="2" data-TypeProductMini="krupa">Крупа</button>
+                            </li>
+                            <li class="menu-item  menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="3" data-TypeProductMini="poluFood">Полуфабрикаты</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2" data-IdMiniSection="4" data-TypeProductMini="conserv">Консервы</button>
+                            </li>
+                        </ul>
+                        <ul id="list-mini-6" class=" list-button-main-2 line-1-list non-active-line2" data-IdMiniList="6">
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2 " data-IdMiniSection="1" data-TypeProductMini="candy">Конфеты</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="2" data-TypeProductMini="icreame">Мороженое</button>
+                            </li>
+                            <li class="menu-item  menu-item-category-2">
+                                <button type="button" class="menu-link menu-link-2" data-IdMiniSection="3" data-TypeProductMini="cookie">Печенье</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="4" data-TypeProductMini="cake">Пирожные и эклеры</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"   class="menu-link menu-link-2" data-IdMiniSection="5" data-TypeProductMini="choko">Шоколад</button>
+                            </li>
+                            <li class="menu-item menu-item-category-2">
+                                <button type="button"  class="menu-link menu-link-2" data-IdMiniSection="6" data-TypeProductMini="marmi">Мармелад</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-filters">
+                        <div class="button-filters">
+                            <form class="button-filter-main filter-1">
+                                <select class="button-filter-main filter-1" id="f-1">
+                                    <option value="">Сортировать по цене</option>
+                                    <option value="rich">Сначала дорогие</option>
+                                    <option value="bitch">Сначала дешевые</option>
+                                    <option value="action">Акционные продукты</option>
+                                  </select>
+                            </form>
+                            <form class="button-filter-main filter-2">
+                                <select class="button-filter-main filter-2" id="f-2">
+                                    <option value="">Сортировать по рейтингу</option>
+                                    <option value="dog">Сначала с высоким рейтингом</option>
+                                    <option value="cat">Сначала с низким рейтингом</option>
+                                    
+                                  </select>
+                            </form>
+                            
+                        </div>
+                        <form class="form-search" action="#">
+                            <input type="text"
+                                   placeholder= " Найти торар"
+                                   class="input-main-filt input-search-main">
+                            <button class="button-search">
+                                <i class="fa fa-search"
+                                   style="font-size: 18px;">
+                                </i>
+                            </button>
+                        </form>
+                        
+                    </div>
+                </div>
+                <div id="catalog-product-1" class="catalog-items-product">
+
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class=" footer-elements info-market-footer">
+                    <div class="logo-info-footer">
+                        <div class="logo-footer"></div>
+                        <div class="logo-text-footer">
+                            <p>МЯСОВКУС</p>
+                        </div>
+                    </div>
+                    <div class="social-footer">
+                        <div class="vk-social"></div>
+                        <div class="tg-social"></div>
+                    </div>
+                </div>
+                <div class="menu-market-footer footer-elements">
+                    <p class="title-menu-footer">Раздел</p>
+                    <ul class="menu-footer">
+                        <li class="menu-item-footer">Главная</li>
+                        <li class="menu-item-footer">Ассортимент</li>
+                        <li class="menu-item-footer">Наш магазин </li>
+                        <li class="menu-item-footer">Доставка</li>
+                        <li class="menu-item-footer">Контакты</li>
+                    </ul>
+                </div>
+                <div class="locat-marker-footer footer-elements">
+                    <div class="menu-market-adress  category-time-run">
+                        <p class="title-menu-footer">Часы работы</p>
+                        <ul class="menu-footer-adress">
+                            <li class=" item-menu-clock">Пн-Вс</li>
+                            <li class=" item-menu-clock">9:30-23:00</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="menu-market-adress  info-for-call-footer">
+                        <p class="title-menu-footer">Контакты</p>
+                        <p class="menu-footer-adress-tell">oo_03@mail.ru</p>
+                        <p class="menu-footer-adress-tell">+7-856-478-45-37</p>
+                    </div>
+                    <div class="menu-market-adress  category-adress-run">
+                        <p class="title-menu-footer">Адрес</p>
+                        <ul class="menu-footer-adress">
+                            <li class="item-menu-clock">Магистральная ул, 12, посёлок Щеглово</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="form-footer-for-reg footer-elements">
+                    <form class="form-reg-footer " action="#">
+                        <div class="form-input-user user-info-form">
+                            <input type="text" class="form-element text-input" placeholder="Введите Имя">
+                            <input type="text" class="form-element text-input" placeholder="Введите email">
+                            <input type="text" class="form-element text-input" placeholder="#">
+                        </div>
+                        <div class="form-element input-check-1">
+                            <input type= "checkbox">
+                            <p class="check-text">Принять условия конфиденциальности нашей политики</p>
+                        </div>
+                        <button type="button" class=" form-element sudmit-form-info footer-form"></button>
+                    </form>
+                </div>
+                
+            </div>
+        </footer>
+    </div>
+
+    
+    
+    <script src="constentes/catalog_bakalea.js"></script>
+    <script src="constentes/catalog_drink.js"></script>
+    <script src="constentes/catalog_frAndVeg.js"></script>
+    <script src="constentes/catalog_meat.js"></script>
+    <script src="constentes/catalog_snacks.js"></script>
+    <script src="constentes/catalog_sweet.js"></script>
+    <script src="constentes/logic_button.js" ></script>
+    <script src="constentes/logic_list_1.js"></script>
+    <script src="constentes/logic-corzin-window.js"></script>
+    <script src="constentes/logic-like-window.js"></script>
+    <script src="js/menu-sticky.js"></script>
+    <script src="js/modal-logic.js"></script>
+
+    
+</body>
+</html>

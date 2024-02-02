@@ -1,0 +1,5 @@
+LIST_LIKED_ADD_PRODUCT = {
+    "LIST_LIKED": [], 
+    "LIST_ADDED": []
+
+}

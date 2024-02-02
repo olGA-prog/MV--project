@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"Mikar";
+    src: url("/font/Mikar.ttf");
+}
+@font-face {
+    font-family:"Header-1";
+    src: url("/font/TLHeader-Regular-RUS.otf");
+}
+@font-face {
+    font-family:"MONO-bold";
+    src: url("/font/LVCMono-Bold.otf");
+}
+@font-face {
+    font-family:"MONO-bold-italic";
+    src: url("/font/LVCMono-BoldItalic.otf");
+}
+@font-face {
+    font-family:"MONO-main";
+    src: url("/font/LVCMono.otf");
+}
